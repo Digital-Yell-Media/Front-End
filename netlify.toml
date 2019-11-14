@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
-  publish = "dym/build"
+  command = "npm build"
+  publish = "dym"
   base = "dym"
 
