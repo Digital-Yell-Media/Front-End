@@ -1,27 +1,16 @@
+
 import React from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import NavLink from './NavLink.jsx';
 
-const NavBar = (props) => {
-        return (
-            <div>
-                <Nav pills>
-                    <NavItem>
-                        <NavLink href="#" active>Home</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#" active>Services</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#" active>Work</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#" active>Contact</NavLink>
-                    </NavItem>
-                </Nav>
-            </div>
-        );
-    }
-
-
+function NavBar() {
+  return (
+    <ul className="navigation grid grid-gutters large-grid-fit med-grid-fit small-grid-1of2">
+      <NavLink className="navigation-link" to="/" brand>Home</NavLink>
+      <NavLink className="navigation-link" to="/services">Services</NavLink>
+      <NavLink className="navigation-link" to="/work">Work</NavLink>
+      <NavLink className="navigation-link" to="/contact">Contact</NavLink>
+    </ul>
+  );
+}
 
 export default NavBar
