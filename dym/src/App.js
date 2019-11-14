@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import LogoComponent from './components/logo';
-//import Nav from './components/navBar'
+import NavBar from './components/navBar'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <LogoComponent/>
+        <NavBar/>
         <p>
+          <LogoComponent/>
          Coming Soon!
         </p>
         
