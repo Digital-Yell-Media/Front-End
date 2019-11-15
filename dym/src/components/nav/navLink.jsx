@@ -1,5 +1,6 @@
 import React, {PropTypes} from 'react';
 import { Link } from 'react-router-dom';
+import './nav.sass';
 
 class NavLinks extends React.Component {
   static propTypes = {brand: PropTypes.bool}

@@ -1,6 +1,7 @@
-
 import React from 'react';
 import NavLink from './NavLink.jsx';
+import './nav.sass';
+
 
 function NavBar() {
   return (
