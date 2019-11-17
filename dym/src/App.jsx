@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Contact from './components/contactForm';
+import Contact from './components/contact/contactForm';
 import Home from './components/home';
 import Services from './components/services';
 import Work from './components/work';
